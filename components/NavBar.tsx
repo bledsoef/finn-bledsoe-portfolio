@@ -1,7 +1,7 @@
 import Link from "next/link"
 export default function NavBar() {
     return (
-      <main className=" z-50 w-full fixed top-0 h-30 right-0 flex flex-row">
+      <main className=" z-50 w-full fixed top-0 h-30 right-0 flex flex-row bg-pastel-green">
         <div className={"w-1/3 text-3xl items-center pl-10 p-5"}>
             Finn <strong>Bledsoe</strong>
         </div>

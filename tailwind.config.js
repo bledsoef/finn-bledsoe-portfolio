@@ -7,7 +7,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'pastel-green': "#77DD77"
+      'pastel-green': "#77DD77",
+      'light-pastel-green':'#8ede8e'
     },
     extend: {
       backgroundImage: {
