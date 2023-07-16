@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-32">
       <div className="z-10 w-full justify-between font-mono flex-col lg:flex">
         <p className="pl-20 pt-20 text-5xl">
-          Hi! I'm Finn and I'm a 
+          Hi! I'm Finn, and I'm a 
         </p>
         <p className="pl-20 pt-5 pb-20 text-8xl">
           <strong>Software Engineer</strong>
