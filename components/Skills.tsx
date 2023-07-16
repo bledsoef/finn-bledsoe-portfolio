@@ -19,8 +19,21 @@ export default function Skills() {
         ["Git", BiLogoGit, "Used Git and Git Bash to track and control 20+ projects."],
         ["GitHub", BiLogoGithub, "Used GitHub to track, organize, and store 20+ version controlled projects."],
         ["GitLab", BiLogoGitlab, "Used GitLab to version control a project and set up a CI/CD pipeline on a project."],
-        ["Helm", SiHelm, "Used Helm and Helm Charts to abstract and organize Kubernetes manifests."], ["Kubernetes", BiLogoKubernetes, "Used Kubernetes "], ["Argo CD", SiArgo], ["GitHub Actions", SiGithubactions], ["Linux", DiLinux], ["TensorFlow", SiTensorflow], ["Jenkins", SiJenkins]]
-    const concepts: NestedList<any> = [["Data Structures", "blurb"], ["GitOps"], ["OOP"], ["Web Development"], ["MVC/MVVC"], ["Machine Learning"], ["Agile"], ["CI/CD"], ["REST APIs"]]
+        ["Helm", SiHelm, "Used Helm and Helm Charts to abstract and organize Kubernetes manifests."],
+        ["Kubernetes", BiLogoKubernetes, "Used Kubernetes "], 
+        ["Argo CD", SiArgo], 
+        ["GitHub Actions", SiGithubactions], 
+        ["Linux", DiLinux], 
+        ["TensorFlow", SiTensorflow], 
+        ["Jenkins", SiJenkins]]
+    const concepts: NestedList<any> = [
+        ["Data Structures", "blurb"], 
+        ["GitOps"], 
+        ["Web Development"], 
+        ["Machine Learning"], 
+        ["Agile"], 
+        ["CI/CD"], 
+    ]
     return (
         <div>
             <div className="flex flex-row items-center">

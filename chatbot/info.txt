@@ -1,1 +1,74 @@
-Hello
+Finn Bledsoe is a junior at Berea College currently working as a Quality Engineer at Red Hat for a fall co-op. Finn has over 2 years of industry experience working at a wide variety of companies.
+He is an aspiring software engineer and is very passionate about full-stack development, DevOps, and machine learning.
+
+EDUCATION
+Finn Bledsoe started at Berea College in August of 2021, and is expected to graduate in May 2025. He is a Dean's list student with a 3.76 GPA. Finn is currently pursuing a Computer and Information Science degree. 
+Finn has taken a variety of relevant courses at Berea:
+Software Design and Implement - Finn was introduced to many key concepts of software design and implement in Python like OOP, functions, types, etc.
+Data Structures - Finn dove deeply into the core data structures while learning C++.
+Computational Intelligence - Finn was introduced to the world of AI and machine learning where he developed genetic algorithms and trained a model in TensorFlow to summarize text.
+Programming Languages - Finn was exposed to many new programming languages in this course, and importantly, was taught about the inner workings of programming languages, how they work, and built his own.
+Calculus I - Finn took Calculus I and learned the fundamentals of Calculus like derivatives, limits, etc.
+Discrete Math - Finn took Discrete Math learning about sets, graphs, combinatorics, and proofs.
+
+Finn also enrolled in CodePath's Advanced Technical Interview course. Codepath is an education technology organization that provides high-quality, accelerated technology training programs and resources to aspiring software engineers and developers. It was founded in 2013 by two MIT graduates, Michael Ellison and Nathan Esquenazi, with the aim of addressing the skills gap in the technology industry and making education more accessible to underrepresented groups in tech. Finn dove even deeper into data structures and algorithms and learned how to be prepared for technical interviews.
+
+
+PROFESSIONAL EXPERIENCE
+Finn has been working as a software engineer for almost 2.5 years at a variety of companies on a variety of projects. Finn has the following experience:
+- Finn has been working as Quality Engineer Intern at Red Hat Openshift from starting in late July and will be continuing until December. He is currently working on Red Hat’s Openshift team testing, creating, and deploying CI/CD pipelines with Kubernetes, GitHub Actions, Travis CI, and Docker.               
+- Finn worked as a Software Engineer Intern for Ball Aerospace from June 2023 - July 2023. He Utilized Next.js, FastAPI, Python, SQLite, Argo CD, Kubernetes, and GitOps methodologies to design a full-stack web application for designing, updating, and deploying Kubernetes clusters with GitOps best practices to develop a company-wide standard for pipeline integration. He also worked in a team utilizing Agile methodologies to plan and execute sprints.
+- Finn has also been working part-time as an AI Development Intern at CincyTech USA since May 2023 and is currently working there now. Chosen by CincyTech because of his Hackathon team’s 1st prize winning project, Finn has been developing chatbots leveraging generative AI models for various uses and purposes.
+- Since August 2022, during the school year, Finn has been working as a Full Stack Software Engineer for Berea College. He has had a variety of responsibilites, including maintaining and adding functionality to multiple web applications with 1600+ users, setting up CI/CD pipelines using Jenkins and GitHub Actions to automatically test and deploy code, and
+has been utilizing the code review process to review other members' code before merging it to production.
+- Finn worked as a Software Developer Intern at Berea College during the summer of 2022. He developed a full-stack web application for the Berea College CELTS department with over 1600 users and resolved 50+ technical design and backend issues and contributed 2000+ lines of code to improve user experience and productivity.
+- Finn also worked part-time as a Data Structures and Algorithms teaching assistant from January 2023 to May 2023 where he helped 35+ students with their Data Structures assignments, saving the professor 5-10 hours of grading and assisting a week.
+- Before he went to college, Finn received an internship at Numismatically Yours, a startup in Yellow Springs where he was introduced to programming and spent the summer of 2021 developing web scrapers and building web applications to track item data online and sent messages to users whenever certain items were available.
+
+
+PROJECTS & OPEN SOURCE CONTRIBUTIONS
+Finn has created and worked on a wide variety of personal projects and open-source projects like:
+- ToneIn was a project Finn and a team of 3 others built with Python, the Slack API, the Open AI API. ToneIn was Slack extension that uses machine learning and data collection to educate users on the tone of their work and personal environments. Won first place at the University of Cincinnati’s RevolutionUC Major League Hacking sponsored hackathon, beating 50 other teams. 
+- The SSDT Slack Bot was a project Finn built with Golang and the Slack API. It was a a Slack Bot created to manage the GitHub workflow for 10+ members of a software development team and send automatic reminders. This allowed users to get started on work immediately when they start their shifts instead of having to figure out and coordinate what they need to work. This saved each person about 30+ minutes of setup each shift.
+- The CELTS Link Application was a project built by the SSDT using Python, JavaScript, Flask, HTML and CSS. Finn contributed 4000+ lines and completed 70+ issues on GitHub to the open source CELTS Link application developed by the Student Software Development Team. Created CI/CD pipelines with GitHub Actions to automatically test and deploy code that allowed users to focus on their work instead of testing their code saving them about 15 minutes, increasing productivity, and increasing the amount of code that is tested.
+- Rex is a social media IOS app Finn built on his own with SwiftUI and Firebase Firestore. Developed a social media mobile application using Swift and Firebase Firestore that allows users to send, receive, and post recommendations to their friends and others. Built a full user authentication program and multi-page IOS app.
+- This website, Finn's Personal Portfolio website was a project he built from scratch with NextJS, Python, FastAPI, and the OpenAI API. Finn built this project from scratch to allow anyone to view his experience and information in an informative way. He utilized OpenAI and Python to send requests from NextJS to the FastAPI backend to allow users to interact with a chat bot informed about all of his information.
+
+SKILLS
+Finn has a variety of skills and knowledge ranging from front-end to devops:
+- Python: Finn developed multiple personal projects and web scrapers with Python. Created 2 different backends for full-stack applications with Flask and FastAPI.
+- Javascript: Finn used JS and Ajax to write the front end functionality for an HTML website and have designed 4 web applications with a JavaScript framework front end.
+- Golang: Finn created a Slack Bot with Go to track the CELTS GitHub repository for outstanding merge requests to decrease the daily setup time by, on average, 30 minutes.
+- Swift created a multi-page IOS social media application with Swift and SwiftUI to allow users to create and share recommendations.
+- C/C++: Finn learned to implement multiple data structures in a variety of projects with C++ and created a robotic car with an Arduino and C.
+- HTML: Finn created the static front end for the the CELTS and LSF websites using plain HTML and used HTML to build React components for a variety of other projects.
+- CSS: Finn utilized both plain CSS, Bootstrap, and TailwindCSS to customize and style 5 different front-ends.
+- Node.js: Finn used React, Node, and Next to create a variety of front and back ends for full-stack web applications.
+- Docker: Finn has containerized multiple projects with Docker and dealt with updating and tagging images.
+- Flask: Finn created the backend for a large web application using Flask and Python with a MySQL database.
+- Git: Finn used Git and Git Bash to track and control 20+ projects.
+- GitHub: Finn used GitHub to track, organize, and store 20+ version controlled projects.
+- GitLab: Finn used GitLab to version control a project and set up a CI/CD pipeline on a project.
+- Helm: Finn used Helm and Helm Charts to abstract and organize Kubernetes manifests.
+- Kubernetes: Finn has developed a full-stack application to use Argo CD as the software agent to pull changes made in Git to a Kubernetes cluster
+- Argo CD: Used Argo CD as the software agent on a GitOps tool meant to automatically update application versions.
+- GitHub Actions: Finn developed a different continuous integration continuous development pipelines to build, test and deploy code with GitHub Actions.
+- Linux: Finn has developed on Ubuntu and Fedora Linux environments in many positions and on many projects.
+- TensorFlow: Finn trained a text summarization machine learning model to take large pieces of text and consolidate them into much shorter form.
+- Jenkins: Finn developed a different continuous integration continuous development pipelines to build, test and deploy code with GitHub Actions.
+- Data Structures: Finn has taken classed and developed many projects utilizing a variety of different data structures.
+- GitOps: Finn has developed a full-stack application to use Argo CD as the software agent to pull changes made in Git to a Kubernetes cluster.
+- Web Development: Finn has developed or worked on 5 web applications with a variety of front and backend technologies.
+- Machine Learning: Finn has trained multiple genetic algorithms, created a text summarization model, and fine-tuned OpenAI's API to meet the needs of personal projects.
+- Agile: Finn has worked in 3 agile work environments, meeting daily for scrum, executing sprints, and pruning backlogs.
+- CI/CD: Finn has developed 2 different continuous integration continuous development pipelines to build, test and deploy code.
+
+ACTIVITIES AND ORGANIZATION
+Finn is involved in many different activities and organizations.
+Finn is the leader of the Welcome to CS Committee, a committee created created to try and get new students at Berea College involved in computer science.
+Finn was also the co-leader of the CS Promotion Committee, which was meant to organize and promote events for the Berea Computer Science department.
+Finn is also the Vice President of the Linux Users Group, a club at Berea College meant to get developers familiar and interested in Linux.
+Finn also spends some of his time at Berea College volunteering with Habitat For Humanity, participating in events and building houses.
+Finn is a member of the Google Developers Student Club at Berea, a Google sponsored club that puts on Hackathons and events for its members.
+Finn is involved in athletics at Berea, being both a member of the Men’s Soccer & Track & Field Teams.
+Finn and a group of 3 others participated in and won both First Prize and the Purposeful User Engagement prize at the RevolutionUC Hackathon at UC, beating out 50 other teams.

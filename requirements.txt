@@ -1,7 +1,7 @@
 langchain==0.0.123
 fastapi
-openapi
+openai
 pinecone-client
-'uvicorn[standard]'
+uvicorn[standard]
 python-dotenv
 pathlib

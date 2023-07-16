@@ -19,7 +19,7 @@ def ingest_documents():
         file_path = "chatbot/info.txt"
         try:
             # load in the pdf files in the directory specified by directory_path
-            textLoader = TextLoader(f"{file_path}", "utf-8")
+            textLoader = TextLoader(f"{file_path}")
             documents = textLoader.load()
 
             # recursively split the text into vectors to be stored in Pinecone with the size of 1000

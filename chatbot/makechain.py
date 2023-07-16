@@ -31,5 +31,5 @@ CONDENSE_PROMPT = PromptTemplate(template=condense_prompt, input_variables=('cha
 
 def makeChain(vectorStore:Pinecone):
     model = ChatOpenAI(model_name='gpt-3.5-turbo', openai_api_key=os.environ["OPENAI_API_KEY"])
-    chain = ConversationalRetrievalChain.from_llm(llm=model, retriever=vectorStore.as_retriever(), condense_question_prompt=CONDENSE_PROMPT, prompt=QA_PROMPT)
+    chain = ConversationalRetrievalChain.from_llm(llm=model, retriever=vectorStore.as_retriever(), condense_question_prompt=CONDENSE_PROMPT, qa_prompt=QA_PROMPT)
     return chain
