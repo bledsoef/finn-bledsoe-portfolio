@@ -1,8 +1,6 @@
 import dotenv
 import os
-import csv
 import pinecone
-import requests
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
@@ -10,7 +8,6 @@ from langchain.vectorstores.pinecone import Pinecone
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
 from pathlib import Path
-from bs4 import BeautifulSoup
 
 def ingest_documents():
         """

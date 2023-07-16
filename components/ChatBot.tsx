@@ -39,7 +39,7 @@ const ChatBot: React.FC<ChatBotProps>= ({onExit}) => {
         </button>
         <div className="flex flex-col w-full">
             {chatHistory.map((chat, index) => (
-                <div key={index} className={`${chat.sender=="bot" ? "bg-light-pastel-green left-5 text-start" : "bg-white right-5 text-end"} text-black z-40 m-2 p-2.5 drop-shadow-sm rounded-2xl`}>{chat.message}</div>
+                <div key={index} className={`${chat.sender=="bot" ? "bg-light-pastel-green self-start" : "bg-gray self-end"} text-black z-40 m-2 p-2.5  min-w-0 max-w-5/6 drop-shadow-sm rounded-2xl`}>{chat.message}</div>
             ))}
         </div>
         <div className="flex flex-row w-full bottom-0 absolute items-center rounded-lg border-2 border-light-pastel-green">

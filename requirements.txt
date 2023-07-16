@@ -1,0 +1,7 @@
+langchain==0.0.123
+fastapi
+openapi
+pinecone-client
+'uvicorn[standard]'
+python-dotenv
+pathlib

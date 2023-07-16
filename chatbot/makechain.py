@@ -27,9 +27,9 @@ Question: {question}
 Helpful answer in markdown:"""
 
 QA_PROMPT = PromptTemplate(template=qa_prompt, input_variables=['context', 'question'])
-CONDENSE_PROMPT = PromptTemplate(template=condense_prompt, input_variables=['chat_history', 'question'])
+CONDENSE_PROMPT = PromptTemplate(template=condense_prompt, input_variables=('chat_history', 'question'))
 
 def makeChain(vectorStore:Pinecone):
     model = ChatOpenAI(model_name='gpt-3.5-turbo', openai_api_key=os.environ["OPENAI_API_KEY"])
-    chain = ConversationalRetrievalChain.from_llm(model, vectorStore.as_retriever(), CONDENSE_PROMPT, QA_PROMPT)
+    chain = ConversationalRetrievalChain.from_llm(llm=model, retriever=vectorStore.as_retriever(), condense_question_prompt=CONDENSE_PROMPT, prompt=QA_PROMPT)
     return chain

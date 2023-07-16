@@ -17,8 +17,10 @@ app.add_middleware(
 @app.post("/")
 async def index(request: Request):
    data = await request.json()  # Correct way to access the JSON data
+   print("hello")
    question = data.get("message")  # Assuming you are sending the message in the "message" field
    responseModel = AI([])
+   print(question)
    response = responseModel.respond(question)
    
    return {"message": response}
