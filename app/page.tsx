@@ -1,11 +1,33 @@
+"use client"
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import {BsChatFill} from "react-icons/bs";
+import { useState } from "react";
+import ChatBot from '@/components/ChatBot';
+import {ButtonClickHandler} from "@/components/ChatBot"
 
 export default function Home() {
+  const [showSidebar, setShowSidebar] = useState(false)
+  const toggleShowSidebar = () => {
+    setShowSidebar(!showSidebar)
+  }
+  const handleChatBotExit: ButtonClickHandler = () => {
+    toggleShowSidebar(); // Toggle the sidebar when the chat bot is exited
+  };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-32">
+      {showSidebar && 
+        <div className="fixed w-1/5 h-5/6 right-10 bg-white z-30 rounded-lg drop-shadow-md ">
+          <div className="w-full h-full p-2 ">
+            <ChatBot onExit={handleChatBotExit}></ChatBot>
+          </div>
+        </div>}
+      {!showSidebar && <button className="fixed right-10 bottom-10 bg-light-pastel-green p-5 rounded-full drop-shadow-md">
+        <BsChatFill onClick={toggleShowSidebar} className=" fill-white h-10 w-10"/>
+      </button>}
+      
       <div className="z-10 w-full justify-between font-mono flex-col lg:flex">
         <p className="pl-20 pt-20 text-5xl">
           Hi! I'm Finn, and I'm a 
@@ -24,7 +46,7 @@ export default function Home() {
             <Skills/>
           </section>
           <section id="Projects" className="py-5">
-            <Projects/>
+            {/* <Projects/> */}
           </section>
         </div>
       </div>

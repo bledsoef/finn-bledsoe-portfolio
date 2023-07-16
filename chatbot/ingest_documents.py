@@ -19,7 +19,7 @@ def ingest_documents():
         env_path = Path('.') / '.env'
         dotenv.load_dotenv()
         os.environ["OPENAI_API_KEY"] = os.environ["open_ai_key"]
-        file_path = "components/data_resource"
+        file_path = "chatbot/info.txt"
         try:
             # load in the pdf files in the directory specified by directory_path
             textLoader = TextLoader(f"{file_path}", "utf-8")
@@ -38,3 +38,6 @@ def ingest_documents():
                                     index_name=os.environ["PINECONE_INDEX_NAME"])
         except Exception as e:
             print(f"Error ingesting documents: {str(e)}")
+
+if __name__ == "__main__":
+     ingest_documents()
