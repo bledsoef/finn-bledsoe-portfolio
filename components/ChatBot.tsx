@@ -50,7 +50,7 @@ const ChatBot: React.FC<ChatBotProps>= ({onExit}) => {
         <button className={"w-full justify-end"} onClick={handleExit}>
             <AiOutlineClose className="h-5 w-5 fill-black"/>
         </button>
-        <div className="flex flex-col w-full overflow-auto">
+        <div className="flex flex-col w-full overflow-y-auto max-h-7/8 ">
             {chatHistory.map((chat, index) => (
                 <div key={index} className={`${chat.sender=="bot" ? "bg-light-pastel-green self-start" : "bg-gray self-end"} text-black z-40 m-2 p-2.5  min-w-0 max-w-5/6 drop-shadow-sm rounded-2xl`}>{chat.message}</div>
             ))}

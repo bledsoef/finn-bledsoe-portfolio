@@ -55,7 +55,7 @@ Finn has a variety of skills and knowledge ranging from front-end to devops:
 - GitHub Actions: Finn developed a different continuous integration continuous development pipelines to build, test and deploy code with GitHub Actions.
 - Linux: Finn has developed on Ubuntu and Fedora Linux environments in many positions and on many projects.
 - TensorFlow: Finn trained a text summarization machine learning model to take large pieces of text and consolidate them into much shorter form.
-- Jenkins: Finn developed a different continuous integration continuous development pipelines to build, test and deploy code with GitHub Actions.
+- Jenkins: Finn developed a different continuous integration continuous development pipelines to build, test and deploy code with Jenkins.
 - Data Structures: Finn has taken classed and developed many projects utilizing a variety of different data structures.
 - GitOps: Finn has developed a full-stack application to use Argo CD as the software agent to pull changes made in Git to a Kubernetes cluster.
 - Web Development: Finn has developed or worked on 5 web applications with a variety of front and backend technologies.

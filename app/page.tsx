@@ -17,9 +17,9 @@ export default function Home() {
     toggleShowSidebar(); // Toggle the sidebar when the chat bot is exited
   };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-32">
+    <main className="flex min-h-screen w-full flex-col items-center lg:justify-between lg:p-32">
       {showSidebar && 
-        <div className="fixed w-1/5 h-5/6 right-10 bg-white z-30 rounded-lg drop-shadow-md ">
+        <div className=" fixed lg:w-1/4 self-center h-5/6 lg:right-10 bg-white z-30 rounded-lg drop-shadow-md ">
           <div className="w-full h-full p-2 ">
             <ChatBot onExit={handleChatBotExit}></ChatBot>
           </div>
