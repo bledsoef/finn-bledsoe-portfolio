@@ -63,7 +63,7 @@ Finn has a variety of skills and knowledge ranging from front-end to devops:
 - Agile: Finn has worked in 3 agile work environments, meeting daily for scrum, executing sprints, and pruning backlogs.
 - CI/CD: Finn has developed 2 different continuous integration continuous development pipelines to build, test and deploy code.
 
-ACTIVITIES AND ORGANIZATION
+ACTIVITIES AND ORGANIZATIONS
 Finn is involved in many different activities and organizations.
 Finn is the leader of the Welcome to CS Committee, a committee created created to try and get new students at Berea College involved in computer science.
 Finn was also the co-leader of the CS Promotion Committee, which was meant to organize and promote events for the Berea Computer Science department.
